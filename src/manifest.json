@@ -1,0 +1,25 @@
+{
+    "name": "AvoidIt",
+    "version": "1.0",
+    "description": "Limits the time slot for visit to YouTube, user can manually set the time spent to it in 24 hours",
+    "manifest_version": 2,
+    "author": "Sakshi Tiwari",
+    
+
+     "browser_action" : {
+        "default_title": "Never stop trying",
+        "default_popup": "popup.html"
+     },
+     
+     "permissions": ["tabs", "storage", "notifications","background","webRequest", "alarms"],
+
+  "background": {
+    "scripts": ["background.js", "submit.js"],
+    "persistent": true
+  },
+  "content_scripts": [{
+    "js": ["popup.js"],
+    "matches": ["<all_urls>"]
+  }]
+     
+}
