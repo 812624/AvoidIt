@@ -15,6 +15,8 @@ It is a simple **chrome extension** to put a check on YouTube uses.
 - Initially idea was to make *Avoid List* where user can put all the websites she wants to put a check on, since it was my first attemt to make an extension so I kept it simple for the first time.
 - There will be sepearte timer for the seperate websites in *Avoid List* version.
 
+**Download Link** [Click here](https://github.com/812624/AvoidIt/archive/master.zip)
+
 ## How to open AvoidIt :-
 
 1). **First of all, you need to open Extensions.**
